@@ -1,0 +1,232 @@
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <!-- top nav -->
+            <div class="container-fluid bg-white fixed-top fix-nav">
+                <div class="top-nav-con">
+                    <div class="notif">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="black">
+                            <path
+                                d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z" />
+                        </svg>
+                    </div>
+                    <div class="nav-mat">
+                        <div id="man">
+                            <img src="https://client.propdoors.com/assets/img/avatar.jpg" alt="" height="80%" />
+                        </div>
+                        <div id="prop">
+                            <div class="t">PropDoors</div>
+                            <div class="n">9587709076</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- side bar -->
+
+            <input type="checkbox" id="toggle-btn" />
+            <label for="toggle-btn" class="toggle-btn-label">
+                <svg id="menu-logo" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="gray">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+                <svg id="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="gray">
+                    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                </svg>
+            </label>
+            <nav id="sidebar">
+                <div class="logo">
+                    <img class="pyto1" src="https://client.propdoors.com/assets/img/logo-dark.png" alt="" />
+                    <img class="pyto2" src="https://client.propdoors.com/assets/img/footer-logo.png" alt="" />
+                </div>
+                <div class="sm-txt">
+                    <p>MENU</p>
+                </div>
+                <div class="menu">
+                    <div [routerLink]="['/app/layout']" class="nvc nvc-sp">
+                        <div class="svg-con">
+                            <a class="text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="gray">
+                                    <path
+                                        d="M418-340q24 24 62 23.5t56-27.5l224-336-336 224q-27 18-28.5 55t22.5 61Zm62-460q59 0 113.5 16.5T696-734l-76 48q-33-17-68.5-25.5T480-720q-133 0-226.5 93.5T160-400q0 42 11.5 83t32.5 77h552q23-38 33.5-79t10.5-85q0-36-8.5-70T766-540l48-76q30 47 47.5 100T880-406q1 57-13 109t-41 99q-11 18-30 28t-40 10H204q-21 0-40-10t-30-28q-26-45-40-95.5T80-400q0-83 31.5-155.5t86-127Q252-737 325-768.5T480-800Zm7 313Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-con">
+                            <a class="text-decoration-none">
+                                <p>Dashboard</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nvc" [routerLink]="['/app/project']">
+                        <div class="svg-con">
+                            <a class="text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="gray">
+                                    <path
+                                        d="M120-120v-560h160v-160h400v320h160v400H520v-160h-80v160H120Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 320h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-con">
+                            <a class="text-decoration-none">
+                                <p>Projects</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nvc" [routerLink]="['/app/leads']">
+                        <div class="svg-con">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="gray">
+                                <path
+                                    d="M360-160q-19 0-34-11t-22-28l-92-241H40v-80h228l92 244 184-485q7-17 22-28t34-11q19 0 34 11t22 28l92 241h172v80H692l-92-244-184 485q-7 17-22 28t-34 11Z" />
+                            </svg>
+                        </div>
+                        <div class="p-con">
+                            <p>Leads</p>
+                        </div>
+                    </div>
+                    <div [routerLink]="['/app/client']" class="nvc">
+                        <div class="svg-con">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="gray">
+                                <path
+                                    d="M0-240v-63q0-43 44-70t116-27q13 0 25 .5t23 2.5q-14 21-21 44t-7 48v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-26-6.5-49T754-397q11-2 22.5-2.5t23.5-.5q72 0 116 26.5t44 70.5v63H780Zm-455-80h311q-10-20-55.5-35T480-370q-55 0-100.5 15T325-320ZM160-440q-33 0-56.5-23.5T80-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T160-440Zm640 0q-33 0-56.5-23.5T720-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T800-440Zm-320-40q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm0-80q17 0 28.5-11.5T520-600q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600q0 17 11.5 28.5T480-560Zm1 240Zm-1-280Z" />
+                            </svg>
+                        </div>
+                        <div class="p-con">
+                            <p>Clients</p>
+                        </div>
+                    </div>
+                    <div [routerLink]="['/app/users']" class="nvc">
+                        <div class="svg-con">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="gray">
+                                <path
+                                    d="M0-240v-63q0-43 44-70t116-27q13 0 25 .5t23 2.5q-14 21-21 44t-7 48v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-26-6.5-49T754-397q11-2 22.5-2.5t23.5-.5q72 0 116 26.5t44 70.5v63H780Zm-455-80h311q-10-20-55.5-35T480-370q-55 0-100.5 15T325-320ZM160-440q-33 0-56.5-23.5T80-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T160-440Zm640 0q-33 0-56.5-23.5T720-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T800-440Zm-320-40q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm0-80q17 0 28.5-11.5T520-600q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600q0 17 11.5 28.5T480-560Zm1 240Zm-1-280Z" />
+                            </svg>
+                        </div>
+                        <div class="p-con">
+                            <p>Users</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- main page -->
+
+            <div class="container-fluid main-page">
+                <div class="container content-page">
+
+                    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="tab ">
+                        
+                        <mat-tab label="Create New Lead">
+                            <div class="row col-4-lg ">
+                                <form class="col  outform mt-2" [formGroup]="leadform">
+                                    <div class="mb-3 tabform ">
+                                      <label for="exampleInputEmail1" class="form-label">Select Projects *</label>
+                                      <input type="email" class="form-control inform" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      
+                                    </div>
+                                    <div class="mb-3 tabform ">
+                                        <label for="exampleInputEmail1" class="form-label">Name *</label>
+                                        <input type="email" class="form-control inform" id="exampleInputEmail1" placeholder="Enter new name" formControlName="name">
+                                        
+                                      </div>
+                                      <div class="mb-3 tabform ">
+                                        <label for="exampleInputEmail1" class="form-label">Email </label>
+                                        <input type="email" class="form-control inform" id="exampleInputEmail1"placeholder="Enter email" formControlName="email"> 
+                                      </div>
+                                  </form>
+<!-- form2 -->
+                                  <form class="col  outform">
+                                    <div class="mb-3 tabform ">
+                                      <label for="exampleInputEmail1" class="form-label"> Contact Number *</label>
+                                      <input type="email" class="form-control inform" id="exampleInputEmail1" placeholder="Enter new name" >
+                                      
+                                    </div>
+                                    <div class="mb-3 tabform ">
+                                        <label for="exampleInputEmail1" class="form-label">Budget</label>
+                                        <input type="email" class="form-control inform" id="exampleInputEmail1" placeholder="Enter budget">
+                                        
+                                      </div>
+                                      <div class="mb-3 tabform ">
+                                        <label for="exampleInputEmail1" class="form-label">Assign To *</label>
+                                        <input type="email" class="form-control inform" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        
+                                      </div>
+                                  </form>
+                                  <div class="but">
+                                  <button type="submit" class="btn btn-" style="background-color: #f3f6f9; color: #000; height: 50px; width: 100px;">Cancel</button>
+                                  <button type="submit" class="btn btn-primary bt" (click)=" savelist()">Save</button>
+                                </div>
+                                  
+                        </div>
+                        </mat-tab>
+
+
+                        <mat-tab label="Batch Upload">
+                            <div class="row col-4-lg ">
+                                <form class="col  outform mt-2">
+                                    <div class="mb-3 tabform ">
+                                      <label for="exampleInputEmail1" class="form-label">Select Projects *</label>
+                                      <input type="email" class="form-control inform" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      
+                                    </div>
+                                    <div class="mb-3 tabform ">
+                                        <label for="exampleInputEmail1" class="form-label">Upload File Name</label>
+                                        <input type="email" class="form-control inform" id="exampleInputEmail1" placeholder="Upload File">
+                                        <span style="font-size: 13px;">Browse your file here. File type: xls & xlsx, Max size:10MB. and
+                                            for sample file Download template</span>
+                                      </div>
+                                      <div class="mb-3 tabform ">
+                                        
+                                        
+                                      </div>
+                                      
+                                  </form>
+
+                                  
+                                 
+                                  
+                        </div>
+                        <div class="but">
+                            <button type="submit" class="btn btn-success">Update</button>
+                          </div>
+                        </mat-tab>
+                        
+                      </mat-tab-group>
+                      
+
+
+
+
+
+
+                    <!-- footer -->
+                    <footer class="container-fluid bg-white small-footer mx-0 px-5">
+                        <div class="row g-0">
+                            <div class="col">
+                                <p class="txt-l text-start ps-3">© Pytosoft.</p>
+                            </div>
+                            <div class="col">
+                                <p class="txt-r text-end pe-4">
+                                    Design & Develop by Pytosoft IT Solution Private Limited
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
