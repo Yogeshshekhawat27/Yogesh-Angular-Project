@@ -1,0 +1,135 @@
+
+  
+  .outer {
+    width: 100%;
+    height: 650px;
+    /* background-color: black; */
+    /* background: linear-gradient(blue,green) */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .inbox {
+    /* background-color: white; */
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right ,rgb(121, 213, 121),blue,skyblue );
+    /* border: 2px brown solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .class1{
+      height: 50%;
+      width: 100%;
+      /* background-color: rgb(255, 127, 157); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  
+  }
+  .class2{
+      height: 50%;
+      width:100%;
+      /* background-color: blueviolet; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .carousel{
+          color: white;
+          height: 50%;
+          width: 80%;
+          text-align: center;
+      }
+     
+  
+  }
+  
+  
+  
+  .inbox1 {
+    /* background-color: black; */
+    /* border: solid red 5px; */
+    height: 450px;
+    width: 1100px;
+    margin-top: 100px;
+    /* display: flex; */
+  
+    .left{
+      height: 100%;
+      width: 50%;
+      background-image: url(../../../assets/auth-one-bg.9284af3a86f94b07.jpg);
+      background-size: cover;
+  
+      .bg{
+          background-color: rgba(51, 51, 138, 0.462);
+          height: 100%;
+          width: 100%;
+      }
+      
+    }
+    .right{
+      height: 100%;
+      width: 50%;
+    }
+  }
+  
+  .in1 {
+    height: 450px;
+    width: 50%;
+    /* background-color: rgb(144, 144, 226); */
+    /* opacity: 0.5; */
+  
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  
+  
+  
+  
+  .in11 {
+    height: 350px;
+    width: 380px;
+    /* background-color: rgb(101, 184, 243); */
+    /* opacity: 0.5; */
+    position: absolute;
+    margin-top: 50px;
+  
+    .in111 {
+      height: 100px;
+      width: 380px;
+      /* background-color: white; */
+      display: flex;
+      justify-content: center;
+      z-index: 1;
+    }
+  }
+  
+  
+  
+  
+  .textblue {
+    color: rgb(59, 157, 217);
+  }
+  
+  .in2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;}
+    
+  
+    .in22 {
+    
+     
+      background-color: white;
+      
+  }
+  
+  .bw {
+    width: 500px;
+  }
+  
